@@ -1,0 +1,212 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* h1 {
+    font-family: 'Battambang', cursive;
+    font-family: 'Koulen', cursive;
+    color: aqua;
+} */
+.Header{
+    position: relative;
+    width: 100%;
+    height: 1500px;
+    /* background-color:red ; */
+}
+.Nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: rgba(22, 46, 68, 1);
+    position: sticky;
+    top:0px;
+    z-index: 100;
+}
+.Nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.Nav ul li{
+    display: inline-block;
+    padding: 20px 25px;
+}
+.Nav ul li a{
+    width: 15px;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    transition: all 0.6s linear;
+}
+.Nav ul li a:hover{
+    background-color: aqua;
+}
+#lestLi{
+    padding-right:50px ;
+}
+.Topic{
+    position: absolute;
+    top: 150px;
+    left: 230px;
+}
+.Topic > p{
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Koulen', cursive;
+}
+.Contain-img{
+    width: 100%;
+    height: 350px;
+    background: url(../Img/Contain-img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Contain{
+    position: absolute;
+    top: 350px;
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color:gold; */
+}
+.Small-Contain{
+    position: relative;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    border-radius: 45px;
+    background-color:rgba(244, 244, 244, 1);
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.Small-Contain-Topic{
+    position: absolute;
+    top: -30px;
+    display: flex;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(182, 251, 205, 1);
+}
+.Small-Contain-Topic a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Battambang', cursive;
+    color: rgba(95, 95, 95, 1);
+}
+.Samll-Contain-All{
+    width: 95%;
+    height: 400px;
+    /* background-color: blueviolet; */
+}
+.Small-Contain-Top {
+    height: 100px;
+    height: 420px;
+    display: grid;
+    grid-template-columns: repeat(3,26.66%);
+    gap: 10%;
+    border-bottom: 1px solid rgba(95, 95, 95, 1);
+    /* background-color: rgba(182, 251, 205, 1) */
+}
+.Small-Contain-Top >a{
+    text-decoration: none;
+}
+.Small-Contain-Top >a >.img{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-color:white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.Small-Contain-Top >a >.img > img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s linear;
+}
+.img > img:hover{
+    transform: scale(0.96);
+}
+p{
+    font-size: 14px;
+    font-family: 'Battambang', cursive;
+    color: rgba(95, 95, 95, 1);
+}
+.Small-Contain-Buttom{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(95, 95, 95, 1);
+    /* background-color: yellow; */
+}
+.Small-Contain-Buttom-Content{
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    /* background-color: blue; */
+}
+.Buttom-left,.Buttom-Center,.Buttom-Right{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.Buttom-left-img,.Buttom-Center-img,.Buttom-Right-img{
+    width: 95%;
+    height: 250px;
+    background-color: white;
+    border-bottom: 1px solid black;
+    /* background-color: red; */
+}
+.Buttom-img{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s linear;
+}
+.Buttom-img:hover{
+    transform: scale(0.96);
+}
+.Text-Content{
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+.Text-Content >.Button {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+}
+.Text-Content >.Button > a{
+    text-decoration: none;
+    padding: 10px 30px;
+    border: none;
+    background-color: aqua;
+    color: white;
+}
