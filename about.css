@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* h1 {
+    font-family: 'Battambang', cursive;
+    font-family: 'Koulen', cursive;
+    color: aqua;
+} */
+.Header{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-color: #FFFFFF;
+    /* background-color:red ; */
+}
+.Nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: rgba(22, 46, 68, 1);
+    position: sticky;
+    top:0px;
+    z-index: 100;
+    box-shadow: 0px 13px 13px 0px rgba(0,0,0,0.18);
+}
+.Nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.Nav ul li{
+    display: inline-block;
+    padding: 20px 25px;
+}
+.Nav ul li a{
+    width: 15px;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    transition: all 0.6s linear;
+}
+.Nav ul li a:hover{
+    background-color: aqua;
+}
+#lestLi{
+    padding-right:50px ;
+}
+.Contain-img{
+    width: 100%;
+    height: 400px;
+    background: url(IMG/Contain-img.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: blur(3px);
+}
+.Contain{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Small-Contain{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    border-radius: 15px;
+    background-color:#F5F5F5;
+    justify-content: center;
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.form-about h1{
+    text-align: center;
+}
+
+.form-about p{
+    padding: 10px;
+}
+.form-about{
+    width: 80%;
+    height: 500px;
+    /* background-color: rgb(244, 232, 234); */
+    margin-top: 30px;
+    border-radius: 20px;
+    /* padding: 20px; */
+    text-align: start;
+}
+
+
+.footer-section{
+    width: 100%;
+    height: 100vh;
+    background-color: pink;
+}
+
+.btn{
+    background-color: pink;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: pink;
+}
+
+.footer{
+    width: 100;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    background-color: rgba(22, 46, 68, 1);
+}
+.Content-footer{
+    width: 80%;
+    height: 100%;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.Socail{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.Contact,.Tp,.Tg,.Fb{
+    margin-bottom: 15px;
+}
+.Tp,.Tg,.Fb,.Em,.Address-Decript{
+    color: white;
+}
+.Contact span{
+    font-size: 24px;
+    color: white;
+}
+.Socail i,.Address i{
+    font-size: 20px;
+    padding-right: 15px;
+    color: white;
+}
+.Address{
+    width: 100%;
+    height: 100%;
+    /* background-color:yellow; */
+}
+.Copyright{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: rgba(17, 38, 58, 1);
+}
+.Copyright span{
+    position: absolute;
+    left: calc(20%/2);
+}
+.Address-Decript{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
